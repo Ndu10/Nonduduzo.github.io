@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .headlines {   
+    text-align: center;
+    color: rgb(80, 132, 245);
+    
+
+  }
+  .headlines h2{
+    font-weight: lighter;
+  }
+  img {
+  display: block;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  color: #54bcf8;
+}
+a {
+        text-decoration: none;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #54bcf8;
+        background: #54bcf8;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: white;
+        color: #54bcf8;
+        border: 1px solid #54bcf8;
+      }
+      #gradient{
+        height: 200px;
+        background-color: #54bcf8;
+        background-image: linear-gradient(#83bfe2, rgb(167, 182, 181), #c1dae9);
+      }
+      body {
+  background-color: rgb(217, 239, 247);
+}
+</style>
+
+<body>
+    <div id="gradient"></div>
+    <div class="headlines">
+        <h1>Blast off with books</h1>
+        <h2>Read to succeed Take A Look…Read A Book! <br> A home without books is just soulless</h2> <hr>
+      </div>
+    
+    <img
+    src="https://www.worcestershire.gov.uk/sites/default/files/styles/page_main_image_des/public/2023-02/libraries_read_and_discover.jpg?h=2992ba0a&itok=Za39agYf"
+    alt="Woman coding"
+    width="300"
+  />
+    <p> Have you ever wondered what the <span style="color:blue;font-weight:bold">benefits</span> of reading are aside from leisure and education? <br>
+         From learning new words to maintaining your mental health, books can do it all! <br><br>
+         <u>Reading Exercises the <em><b>Brain</b></em></u> <br>
+         While reading, we have to remember different characters and settings that belong to a given story. <br>
+          Therefore, reading is a workout for yourbrain that improves memory function.
+          <img
+    src="https://illogicalscript.com/wp-content/uploads/2023/02/Concentration-1024x576.jpg?ezimgfmt=ng:webp/ngcb1"
+    alt="Woman coding"
+    width="300"
+  />
+           <br>
+           <u>Reading is a Form of (free) <em><b>Entertainment</b></em></u> <br>
+           Did you know that most of the popular TV shows and movies are based on books? <br>
+           So why not indulge in the original form of entertainment by immersing yourself in reading. 
+           <br><br>
+           <a href="
+           https://markham.bibliocommons.com/list/share/1256531607_mradzevich/1692394439_books_that_celebrate_the_benefits_of_readings?
+           "> <em>Recomendations</em> of Books that support the <Strong>benefits of Reading</Strong></a>
+          
+         </p>
+         <button class="lectiophile">Join lectiophiles</button>
+         <p>Coded by Nonduduzo Dlamini</p>
+
+         <script>
+           function apply() {
+
+            let firstName = prompt("What is your first name?");
+            let surname = prompt("What is your surname?");
+            let answer = prompt("Are you interested in joining lectiophiles club?");
+            
+            if(answer ==="Yes"){
+                alert(firstName +" " +surname +" Welcome to lectiophiles club");
+            }
+            else if(answer === "No"){
+                 alert(firstName +" " +surname +" Let us know when you are ready and we will always be there");
+  }
+}
+let applyButton = document.querySelector("button");
+applyButton.addEventListener("click", apply);
+          </script>
+        <div id="gradient"></div>  
+</body>
+</html>
